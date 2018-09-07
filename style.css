@@ -41,13 +41,10 @@ header hr{
     cursor: pointer;
 }
 
-.grid-container {
-    display: grid;
-}
-.grid-item {
-    display: grid;
+container {
+    display: inline-grid;
     grid-template-columns: repeat(2,1fr);
-  }
+}
 
   .fit{
     float: right;
@@ -67,6 +64,16 @@ header hr{
     font-weight: bold;
 
   }
-  .far .fa-gem{
-      background-color: #ff7e00;
+.fa-gem{
+      color: #ff7e00;
+  }
+  .fa-paper-plane{
+    color: #ff7e00;
+  }
+  .fa-signal{
+    color: #ff7e00;
+  }
+  .fa-rocket{
+      color: #ff7e00;
+      
   }
