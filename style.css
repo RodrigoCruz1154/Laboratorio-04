@@ -1,0 +1,72 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.color{
+    color: gray;
+}
+
+header hr{
+    background-color: coral;
+    height: 0.3em;
+}
+
+.acomodar{
+    float: right;
+    margin: 20px;
+    height: 240px;
+    width: 240px;
+}
+
+.button{
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;   
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff7e00;
+    border:2px solid #ff7e00;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover{
+    color: red;
+    border:2px solid red;
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+}
+.grid-item {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .fit{
+    float: right;
+  }
+
+  p.subrayado{
+    padding: 10px;
+    padding-bottom: 10px;   
+    font-size: 20px;
+    border:5px solid;
+    border-bottom-color: #ff7e00;
+    margin: 5px;
+    margin-right: 1070px;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    font-weight: bold;
+
+  }
+  .far .fa-gem{
+      background-color: #ff7e00;
+  }
